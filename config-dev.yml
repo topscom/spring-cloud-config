@@ -2,15 +2,8 @@ server:
   port: 3346
 spring:
   application:
-    name: cloud-config-server
-  cloud:
-    config:
-      server:
-         git:
-           url: http://172.20.3.121:7070/chenxiaoliang/cloud.git
-           search-paths:
-             - springcloud-config
-      label: master
+    name: config-client
+
 eureka:
   client:
     register-with-eureka: true
