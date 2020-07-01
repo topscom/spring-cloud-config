@@ -3,7 +3,7 @@ server:
   p: 1222
 spring:
   application:
-    name: config-client
+    name: config-client22222
 
 eureka:
   client:
