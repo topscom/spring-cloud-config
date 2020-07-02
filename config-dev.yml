@@ -1,6 +1,6 @@
 server:
   port: 3347
-  p: cccccccc
+  p: ccccccccaaaaaa
 spring:
   application:
     name: config-client22222
